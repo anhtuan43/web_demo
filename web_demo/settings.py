@@ -83,8 +83,8 @@ DATABASES = {
         "ENGINE": "django.db.backends.mysql",
         "NAME": "test1",
         "USER": "admin",
-        # "PASSWORD": "anh050302",
-        "HOST": "database-1.cxqmimy0m3tz.ap-southeast-2.rds.amazonaws.com",
+        "PASSWORD": "anhtuansh",
+        "HOST": "mysql.cxqmimy0m3tz.ap-southeast-2.rds.amazonaws.com",
         "PORT": "3306"
     }
 }
