@@ -1,0 +1,8 @@
+{% extends "home/base.html" %}
+{% block login %}
+    <form method = "POST" action = "{% url "home:loginUser" %}">
+        {% csrf_token %}
+        {{login.as_p}}
+        <input type="submit">
+    </form>
+{% endblock %}
