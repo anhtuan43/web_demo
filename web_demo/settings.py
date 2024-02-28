@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-kmo8vbk2_86w%=le!9!v48m0091ns2jzapd3s(sm-2+f9s8q8!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['3.106.250.208']
+ALLOWED_HOSTS = ['52.91.152.156']
 
 
 # Application definition
@@ -84,7 +84,7 @@ DATABASES = {
         "NAME": "site1",
         "USER": "admin",
         "PASSWORD": "anhtuansh",
-        "HOST": "mysql.cxqmimy0m3tz.ap-southeast-2.rds.amazonaws.com",
+        "HOST": "database-1.c7cs8wiwal6x.us-east-1.rds.amazonaws.com",
         "PORT": "3306"
     }
 }
