@@ -84,7 +84,7 @@ DATABASES = {
         "NAME": "site1",
         "USER": "admin",
         "PASSWORD": "anhtuansh",
-        "HOST": "mysql.c7cs8wiwal6x.us-east-1.rds.amazonaws.com",
+        "HOST": "db-mysql.c5wcmeqkmrla.us-west-1.rds.amazonaws.com",
         "PORT": "3306"
     }
 }
